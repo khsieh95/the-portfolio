@@ -95,7 +95,6 @@ a.hyperlink:hover {
 /* Projects.html */
 #project-header {
   font-size: 50px;
-  text-align: center;
 }
 .image {
   max-width: 200px;
@@ -104,7 +103,7 @@ a.hyperlink:hover {
 
 .project-picture {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 2%;
 }
 
