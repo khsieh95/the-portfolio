@@ -7,6 +7,7 @@
   border: 1px solid;
   padding: 10px;
   box-shadow: 10px 10px 8px #888888;
+  overflow: auto;
 }
 
 .left,
@@ -28,6 +29,10 @@
 .hyperlink {
   color: black;
 }
+a.hyperlink:hover {
+  font-size: 150%;
+  color: black;
+}
 
 .icons-col {
   height: 19vw;
@@ -47,7 +52,8 @@
 .icon {
   height: 40px;
   width: 40px;
-  border-radius: 50%;
+  border-radius: 20%;
+  box-shadow: 2px 2px 5px #888888;
 }
 
 /* Middle Column */
@@ -65,9 +71,12 @@
   font-size: 50px;
 }
 /* Right Column */
-.image {
+.main-image {
   margin-top: 10%;
-  height: 100vw;
+}
+
+.img-thumbnail {
+  border-radius: 10%;
 }
 
 /* Contact me html */
@@ -77,4 +86,21 @@
 
 .contact-me {
   width: 720px;
+}
+
+/* Projects.html */
+.image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.project-picture {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+#pic1,
+#pic2 {
+  margin-top: 2%;
 }
