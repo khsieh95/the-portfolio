@@ -12,23 +12,31 @@
 .left,
 .middle,
 .right {
-  height: 35vw;
+  height: 38vw;
   border: 1px solid blue;
 }
+/* Left Column */
 
 .directory {
-  height: 20vw;
+  height: 19vw;
 }
 
-.test {
+.links-div {
   margin-top: 40%;
   margin-left: 20%;
 }
-.icons {
-  height: 15vw;
+
+.icons-col {
+  height: 19vw;
   border: 1px solid;
 }
 
+.icon {
+  height: 8vh;
+  width: 4vw;
+}
+
+/* Middle Column */
 .contact-info {
   margin-top: 10%;
   float: left;
@@ -37,7 +45,7 @@
 #full-name {
   font-size: 50px;
 }
-
+/* Right Column */
 .image {
   margin-top: 30%;
 }
