@@ -16,7 +16,16 @@
   border: 1px solid blue;
 }
 
+.directory {
+  height: 20vw;
+}
+
+.test {
+  margin-top: 40%;
+  margin-left: 20%;
+}
 .icons {
+  height: 15vw;
   border: 1px solid;
 }
 
