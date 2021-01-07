@@ -1,5 +1,9 @@
+body {
+  background-image: linear-gradient(to left, #58849f, #9f7358);
+}
 .container {
   background-color: white;
+  background-image: linear-gradient(to right, #58849f, #9f7358);
   height: 40vw;
   width: 90vw;
   border-radius: 25px;
@@ -8,6 +12,7 @@
   padding: 10px;
   box-shadow: 10px 10px 8px #888888;
   overflow: auto;
+  color: white;
 }
 
 .left,
@@ -19,24 +24,30 @@
 /* Left Column */
 
 .directory {
-  height: 19vw;
+  height: 17vw;
 }
 
 .links-div {
   margin-top: 30%;
   margin-left: 20%;
 }
-.hyperlink {
-  color: black;
+.horizontal-rule {
+  border-top: 0.5px solid white;
+  width: 70%;
 }
-a.hyperlink:hover {
-  font-size: 150%;
-  color: black;
+hr {
+  border-top: 0.5px solid white;
+}
+
+.tab {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.4s ease-out;
 }
 
 .icons-col {
   height: 19vw;
-  /* border: 1px solid; */
 }
 
 .all-icons {
@@ -71,7 +82,7 @@ a.hyperlink:hover {
   font-size: 50px;
 }
 /* Right Column */
-.main-image {
+.right-col-img {
   margin-top: 10%;
 }
 
@@ -96,22 +107,36 @@ a.hyperlink:hover {
 #project-header {
   font-size: 50px;
 }
-.image {
-  max-width: 200px;
-  max-height: 200px;
-}
 
-.project-picture {
+.card {
+  box-shadow: 2px 2px 8px rgb(78, 78, 78);
+}
+.card-title {
+  text-decoration: underline;
+}
+#row1 {
   display: flex;
-  justify-content: left;
-  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
 }
 
-#pic1,
-#pic2 {
-  margin-top: 2%;
+.image {
+  transition: transform 0.2s;
 }
 
+.image:hover {
+  transform: scale(2);
+}
+
+.list-group-item,
+.card-body {
+  color: black;
+}
+
+.project-links {
+  position: relative;
+  transition: color 0.4s ease-out;
+}
 /* About Me Page */
 #about-me-header {
   font-size: 50px;

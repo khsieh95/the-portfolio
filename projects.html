@@ -9,10 +9,6 @@
     <!-- Added reference link for google fonts, bootstrap and css stylesheet -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Castoro&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
@@ -29,23 +25,24 @@
             <div class="col-12 directory">
               <div class="links-div">
                 <div class="homepage">
-                  <a class="hyperlink" href="index.html">Home</a>
+                  <a class="tab" href="index.html">Home</a>
                 </div>
                 <br />
                 <div class="aboutme">
-                  <a class="hyperlink" href="aboutme.html">About Me</a>
+                  <a class="tab" href="aboutme.html">About Me</a>
                 </div>
                 <br />
                 <div class="contact">
-                  <a class="hyperlink" href="contact.html">Contact Me</a>
+                  <a class="tab" href="contact.html">Contact Me</a>
                 </div>
                 <br />
                 <div class="projects">
-                  <a class="hyperlink" href="projects.html">Projects</a>
+                  <a class="tab" href="projects.html">Projects</a>
                 </div>
               </div>
             </div>
           </div>
+          <hr class="horizontal-rule">
           <div class="row">
             <div class="col-12 icons-col">
               <div class="all-icons">
@@ -82,59 +79,43 @@
             </div>
           </div>
         </div>
-
         <div class="col-10 project-col">
+            <div class="test123">
             <h2 id="project-header">My Projects</h2>
             <hr>
-                <div class="row">
-                  <!-- Added multiple classes to help position the place holders correctly -->
-                  <div class="col-sm-6 project-picture">
-                    <img
-                    class="image"
-                      src="https://place-puppy.com/300x300"
-                      id="pic1"
-                      alt="Cute Puppy"
-                    />
-                  </div>
-                  <div class="col-sm-6 project-picture">
-                    <img
-                    class="image"
-                      src="https://place-puppy.com/300x300"
-                      id="pic2"
-                      alt="Cute Puppy2"
-                    />
-                  </div>
+            <div class="row project-row" id="row1">
+                  <!-- Added multiple classes to help position the place holders correctly -->     
+                <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://user-images.githubusercontent.com/74025123/103579954-264f8400-4e8e-11eb-91d7-90470546696b.png" class="card-img-top image" alt="Project-1-img">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1: Shake & Date</h5>
+                          <p class="card-text">Significance: First group project working as the project manager, and tackling front-end and back-end tasks</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><a href = "https://github.com/khsieh95/shake-and-date" target="_blank">Github Repository</a></li>
+                          <li class="list-group-item"><a href="https://khsieh95.github.io/shake-and-date/" target="_blank">Deployment Link</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="row">
-                  <div class="col-sm-6 project-picture">
-                    <img
-                    class="image"
-                      src="https://place-puppy.com/300x300"
-                      id="pic3"
-                      alt="Cute Puppy"
-                    />
-                  </div>
-                  <div class="col-sm-6 project-picture">
-                    <img
-                    class="image"
-                      src="https://place-puppy.com/300x300"
-                      id="pic4"
-                      alt="Cute Puppy2"
-                    />
-                  </div>
+                <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://user-images.githubusercontent.com/74025123/103851178-f525ae00-505d-11eb-81e0-1058fb4540c8.png" class="card-img-top image" alt="weather-dashboard-img">
+                        <div class="card-body">
+                          <h5 class="card-title">Weather-Dashboard</h5>
+                          <p class="card-text">Significance: The assignment where I had a great grasp on front-end/back-end javascript functionality</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><a class="project-links" href = "https://github.com/khsieh95/weather-dashboard" target="_blank">Github Repository</a></li>
+                          <li class="list-group-item"><a class="project-links" href="https://khsieh95.github.io/weather-dashboard/" target="_blank">Deployment Link</a></li>
+                        </ul>
+                       
+                    </div>
                 </div>
-                <div class="row">
-                  <div class="col-sm-6 project-picture">
-                    <img
-                    class="image"
-                      src="https://place-puppy.com/300x300"
-                      id="pic5"
-                      alt="Cute Puppy"
-                    />
-                  </div>
-                  <div class="col-sm-6"></div>
-                </div> 
-            </div>
+                
+            </div>  
+        </div>      
+        </div>
         </div>
     </div>
     <script
