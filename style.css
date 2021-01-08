@@ -103,6 +103,7 @@ hr {
 
 /* Projects.html */
 .card {
+  width: 18rem;
   box-shadow: 2px 2px 8px rgb(78, 78, 78);
   margin-bottom: 2%;
 }
@@ -120,7 +121,7 @@ hr {
 }
 
 .image:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .list-group-item,
@@ -131,4 +132,29 @@ hr {
 .project-links {
   position: relative;
   transition: color 0.4s ease-out;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    height: 100%;
+  }
+  .left {
+    display: none;
+  }
+  #entire-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* PROJECTS */
+  .project-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    height: 50%;
+    width: 100%;
+  }
 }
