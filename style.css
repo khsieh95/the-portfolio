@@ -159,6 +159,7 @@ hr {
     width: 100%;
   }
   .card {
+    height: 65vh;
     width: 100%;
   }
   .btn {
@@ -178,5 +179,28 @@ hr {
   }
   .contact-me {
     width: 100%;
+  }
+  /* ABOUT ME  */
+  #aboutme-row {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+  .right-col-img {
+    position: absolute;
+    top: 0;
+  }
+  #about-btn {
+    display: flex;
+    justify-content: left;
+  }
+  /* HOME */
+  #home-row {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
