@@ -142,6 +142,7 @@ hr {
   .container {
     height: 100%;
   }
+
   .left {
     display: none;
   }
@@ -166,5 +167,16 @@ hr {
   .dropdown {
     display: flex;
     justify-content: center;
+  }
+  /* CONTACT ME */
+  #contact-row {
+    display: flex;
+    justify-content: center;
+  }
+  #contact-header {
+    text-align: center;
+  }
+  .contact-me {
+    width: 100%;
   }
 }
