@@ -105,6 +105,7 @@ hr {
 /* Projects.html */
 .card {
   box-shadow: 2px 2px 8px rgb(78, 78, 78);
+  margin-bottom: 2%;
 }
 .card-title {
   text-decoration: underline;
