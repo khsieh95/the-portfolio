@@ -68,6 +68,9 @@ hr {
 }
 
 /* Middle Column */
+.container-header {
+  font-size: 50px;
+}
 .middle {
   display: flex;
   justify-content: center;
@@ -95,19 +98,11 @@ hr {
   padding-top: 5%;
 }
 
-#contact-header {
-  font-size: 50px;
-}
-
 .contact-me {
   width: 720px;
 }
 
 /* Projects.html */
-#project-header {
-  font-size: 50px;
-}
-
 .card {
   box-shadow: 2px 2px 8px rgb(78, 78, 78);
 }
@@ -121,7 +116,7 @@ hr {
 }
 
 .image {
-  transition: transform 0.2s;
+  transition: 0.2s;
 }
 
 .image:hover {
@@ -136,8 +131,4 @@ hr {
 .project-links {
   position: relative;
   transition: color 0.4s ease-out;
-}
-/* About Me Page */
-#about-me-header {
-  font-size: 50px;
 }
